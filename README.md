@@ -13,13 +13,13 @@ The A/B testing methodology involves comparing the performance of the old webpag
 
 ### Repository Structure
 ```
-├── data/
-│   └── ab_data.csv , countries.csv               # Dataset containing A/B testing results
-├── notebooks/
-│   └── A_B_Testing_Analysis.ipynb  # Jupyter notebook for A/B testing and analysis
-├── snapshots/
-│   └── screenshots.png             # Screenshots of key visualizations
-├── LICENSE                          # License file (e.g., MIT License)
+├──
+│   dataa.rar:ab_data.csv , countries.csv               # Dataset containing A/B testing results
+├── 
+│   A_B_Testing_Analysis.ipynb  # Jupyter notebook for A/B testing and analysis
+├── 
+│    screenshots.png             # Screenshots of key visualizations
+
 └── README.md                        # Project documentation and overview
 
 ```
