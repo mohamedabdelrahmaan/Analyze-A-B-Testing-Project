@@ -45,20 +45,21 @@ The A/B testing methodology involves comparing the performance of the old webpag
 - **Part f - Hypothesis Testing Conclusion:**
     Based on the calculated p-value and statistical tests, it is concluded that the new webpage design did not significantly affect the conversion rate. The p-value is greater than the rejection area threshold, indicating a failure to reject the null hypothesis. The p-value is also greater than the alpha level, and the z-statistic further supports the conclusion.
   
-  ![Snapshot of Histogram](d.png)
+  ![Snapshot of hypothies](d.png)
 
 - **Part g - Logistic Regression and Additional Factors:**
     The logistic regression analysis, both for the webpage design and user country, suggests that the new page is not statistically significant in influencing conversion rates. While the p-value in regression is low, indicating statistical significance, it's important to consider additional factors that could potentially impact the results.
   
-  ![Snapshot of Histogram](e.png)
+  ![Snapshot of regression](e.png)
   
 - **Part h - Impact of User Country:**
     The analysis was extended to assess the impact of user country on conversion rates. It is concluded that neither the new webpage design nor user country significantly affected the conversion rate.
   
-  ![Snapshot of Histogram](f.png)
+  ![Snapshot countries feature impact](f.png)
   
 ### Data
-The dataset used for this analysis can be found in the `data/` directory. The dataset contains columns including `user_id`, `timestamp`, `group`, `landing_page`, `converted`, and `country`.
+The a_b data dataset contains columns including `user_id`, `timestamp`, `group`, `landing_page`, and `converted`.
+and countries.csv dataset .
 
 ...
 
